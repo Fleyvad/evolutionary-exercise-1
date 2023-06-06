@@ -19,7 +19,7 @@ const ComponentB = ({ contact }) => {
       <p>Country: {country}</p>
       <p>City: {city}</p>
       <p>
-        Connection:{" "}
+        Connection:
         {toggle ? AVIABILITY.contactOnLine : AVIABILITY.contactNotAviable}
       </p>
       <button className={toggle ? "On" : "Off"} onClick={connectDisconnect}>
