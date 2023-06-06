@@ -2,7 +2,7 @@ export class Contact {
   firstName = "";
   surName = "";
   email = "";
-  conuntry = "";
+  country = "";
   city = "";
   connected = Boolean;
 

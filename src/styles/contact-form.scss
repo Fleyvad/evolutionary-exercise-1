@@ -1,0 +1,44 @@
+.form_container {
+  max-width: 10rem;
+  display: flex;
+  padding: 2rem;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.form input {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: grey;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+.form input::placeholder {
+  color: rgb(211, 208, 208);
+}
+
+.form select {
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.2rem;
+  width: 100%;
+  background-color: rgb(211, 208, 208);
+}
+
+.form button {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: rgb(211, 208, 208);
+}

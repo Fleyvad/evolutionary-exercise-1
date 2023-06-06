@@ -1,0 +1,16 @@
+.table_container {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.contact__title th {
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 1.3rem 1rem;
+  border-bottom: 1px solid white;
+}
